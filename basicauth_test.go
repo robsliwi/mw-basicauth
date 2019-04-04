@@ -7,7 +7,7 @@ import (
 
 	"github.com/gobuffalo/buffalo"
 	"github.com/gobuffalo/httptest"
-	"github.com/robsliwi/mw-basicauth"
+	basicauth "github.com/gobuffalo/mw-basicauth"
 	"github.com/stretchr/testify/require"
 )
 
