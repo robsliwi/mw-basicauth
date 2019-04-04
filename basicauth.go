@@ -10,6 +10,13 @@ import (
 )
 
 var (
+	// ErrNoCreds is returned when no basic auth credentials are defined
+	ErrNoCreds = errors.New("no basic auth credentials defined")
+
+	// ErrAuthFail is returned when the client fails basic authentication
+	ErrAuthFail = errors.New("invalid basic auth username or password")
+	// ErrUnauthorized is returned in any case the basic authentication fails
+
 	// ErrUnauthorized is returned when basic authentication failed
 	ErrUnauthorized = errors.New("Unauthorized")
 )
