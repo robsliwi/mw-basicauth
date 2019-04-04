@@ -16,6 +16,8 @@ var (
 	// ErrAuthFail is returned when the client fails basic authentication
 	ErrAuthFail = errors.New("invalid basic auth username or password")
 	// ErrUnauthorized is returned in any case the basic authentication fails
+
+	// ErrUnauthorized is returned when basic authentication failed
 	ErrUnauthorized = errors.New("Unauthorized")
 )
 
